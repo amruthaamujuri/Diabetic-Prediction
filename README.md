@@ -18,6 +18,8 @@ The target variables in your dataset would be:
 
 Type of Diabetes: A classification label indicating whether the person has Type 1, Type 2, or Gestational diabetes.
 Risk Level: A classification label indicating the risk level (Low, Medium, High) of the person developing diabetes.
+
+
 3. Data Preprocessing
 Before feeding the data into the machine learning models, preprocessing steps would have been applied, such as:
 
@@ -25,11 +27,15 @@ Handling Missing Values: Removing or imputing missing data.
 Data Normalization/Standardization: Scaling numeric features to ensure consistent ranges across features.
 Encoding Categorical Data: Converting categorical variables like gender or ethnicity into numerical form using techniques like one-hot encoding.
 Splitting the dataset: Dividing the dataset into training and testing sets for model evaluation.
+
+
 4. Feature Selection
 To ensure the model focuses on the most relevant information, you likely used feature selection techniques such as:
 
 Correlation Analysis: Identifying features that are highly correlated with diabetes risk or type.
 Feature Importance: Using techniques like feature importance from tree-based models or LASSO regularization to select important features.
+
+
 5. Model Selection
 For the classification task, you may have experimented with different machine learning algorithms, such as:
 
