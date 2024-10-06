@@ -53,6 +53,8 @@ Precision and Recall: To understand how well the model detects true positives wh
 F1 Score: The harmonic mean of precision and recall, especially useful for imbalanced datasets.
 Confusion Matrix: To visualize the performance of classification models by showing true positives, true negatives, false positives, and false negatives.
 ROC-AUC Curve: To evaluate the model’s ability to distinguish between the classes.
+
+
 7. Risk Level Prediction
 The risk level of diabetes (Low, Medium, or High) would have been predicted based on factors like:
 
@@ -60,6 +62,8 @@ BMI: High BMI often correlates with a higher risk of Type 2 diabetes.
 Family History: A family history of diabetes increases the risk.
 Blood Glucose Levels: Elevated levels suggest a higher risk of diabetes.
 Physical Activity: Sedentary lifestyle is associated with a higher risk.
+
+
 8. Type of Diabetes Prediction
 To predict the type of diabetes (Type 1, Type 2, or Gestational), the model would look at factors such as:
 
